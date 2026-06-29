@@ -1,8 +1,6 @@
 # AV GPS Speed Drop Detection — Spark Structured Streaming Pipeline
 
-## Scenario
-
-**Scenario A: Autonomous Fleet Telemetry**
+**Autonomous Fleet Telemetry**
 
 This project is created using a Spark Structured Streaming pipeline which is detecting sudden deceleration in autonomous vehicle GPS telemetry. This system simulates streaming by splitting a CSV dataset into small batch files then automatically sending those files into a watched directory.
 
