@@ -6,9 +6,7 @@
 
 This project is created using a Spark Structured Streaming pipeline which is detecting sudden deceleration in autonomous vehicle GPS telemetry. This system simulates streaming by splitting a CSV dataset into small batch files then automatically sending those files into a watched directory.
 
-The alert condition is:
-
-**Speed drop greater than 20 km/h between consecutive sliding windows.**
+The alert condition is: Speed drop greater than 20 km/h between consecutive sliding windows.
 
 ---
 
