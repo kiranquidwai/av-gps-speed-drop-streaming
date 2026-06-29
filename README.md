@@ -163,10 +163,10 @@ The pipeline performs the following steps:
 | Streaming input method | Watched directory using `readStream` |
 
 ---
-
-## Why I Chose This Window Type
+## Where the Pipeline Requires State
 
 I have chosen the sliding window because the continuous detection of sudden speed change is needed, so for this, overlapping  intervals are required and not the non-overlapping intervals. A 1-minute window has given enough readings to calculate a stable average speed, while the 10-second slide allows the pipeline to check for rapid speed changes frequently. This matches the autonomous fleet telemetry scenario because an accident-like event may occur within a short time period. 
+
 ---
 
 ## Where the Pipeline Requires State
